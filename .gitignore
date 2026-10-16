@@ -1,0 +1,57 @@
+# ==========================================================
+#  STM32F103C8T6_MPU6050 - Git ignore
+# ==========================================================
+
+# ---------- STM32CubeIDE 构建输出 ----------
+build/
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.ihex
+*.srec
+
+# 编译中间文件
+*.gcno
+*.gcda
+*.gcov
+
+# ---------- STM32CubeIDE 本机配置（与具体电脑相关，不纳入版本管理） ----------
+.settings/stm32cubeide.project.prefs
+*.launch
+.cproject.backup
+.project.backup
+.mxproject.backup
+STM32CubeIDE/
+.settings/org.eclipse.cdt.core.prefs
+
+# ---------- 常见 IDE / 编辑器 ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- 操作系统 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- Python 上位机工具 ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.csv
+!Docs/example_data.csv
+
+# ---------- 依赖包 ----------
+*.zip
+*.7z
